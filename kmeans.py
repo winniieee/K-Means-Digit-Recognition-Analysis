@@ -1,6 +1,5 @@
 """
 * Name: Win Win
-* Date: 07/20/2023
 * Description: Python program that implements a k-means clustering algorithm
   and iteratively assigns data points to the nearest centroid and updates the
   centroids until convergence.
