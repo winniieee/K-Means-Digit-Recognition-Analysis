@@ -1,9 +1,7 @@
 """
 * Name: Win Win
-* Date: 08/02/2023
 * Description: Python program that analyzes the results of a
   k-means clustering algorithm and calculates the accuracy.
-* Collaboration:
 """
 
 from kmeans import get_closest_centroid
