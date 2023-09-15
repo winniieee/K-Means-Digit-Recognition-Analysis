@@ -3,7 +3,6 @@
 * Description: Python program that implements a k-means clustering algorithm
   and iteratively assigns data points to the nearest centroid and updates the
   centroids until convergence.
-* Collaboration:
 """
 
 import utils  # noqa: F401, do not remove if using a Mac
@@ -48,7 +47,6 @@ def euclidean_distance(point1, point2):
     return euclidean_distance
 
 
-# problem for students
 def get_closest_centroid(point, centroids_dict):
     """Given a datapoint, finds the closest centroid. You should use
     the euclidean_distance function (that you previously implemented).
@@ -83,7 +81,6 @@ def get_closest_centroid(point, centroids_dict):
     return closest_centroid
 
 
-# problem for students
 def update_assignment(list_of_points, centroids_dict):
     """Assign all data points to the closest centroids. You should use
     the get_closest_centroid function (that you previously implemented).
